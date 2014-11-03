@@ -24,5 +24,27 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 
+#main house
+rectangle = drawpad.create_rectangle(200,200,500,500, fill='red')
+#roof
+line = drawpad.create_line(200,200,350,100)
+
+line = drawpad.create_line(350,100,500,200)
+#door
+rectangle = drawpad.create_rectangle(300,500,400,350, fill='brown')
+#windows
+rectangle = drawpad.create_rectangle(450,250,400,300, fill='light blue')
+
+rectangle = drawpad.create_rectangle(300,300,250,250, fill='light blue')
+#door knob
+rectangle = drawpad.create_rectangle(390,420,370,440, fill='grey')
+#chimeney
+line = drawpad.create_line(500,200,500,100)
+
+line = drawpad.create_line(500,100,460,100)
+
+line = drawpad.create_line(460,175,460,100)
+#lawn
+rectangle = drawpad.create_rectangle(0,500,600,800, fill='green')
 
 root.mainloop()
